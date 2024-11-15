@@ -1,16 +1,17 @@
 .cards-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .card {
-    margin: 3em;
+    margin:2.5em;
 }
 
 .card img {
-    max-width: 100%;
+    max-width: 25vh;
     border-radius: 1em;
-    height: 30vh;
+    height: 40vh;
     object-fit: cover;
 }
 
@@ -28,3 +29,4 @@
     color: grey;
     margin: 0;
 }
+
