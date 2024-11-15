@@ -1,0 +1,30 @@
+.cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin: 3em;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 1em;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: -0.05em;
+    margin: 0;
+}
+
+.card p {
+    font-size: 0.7em;
+    font-weight: 400;
+    color: grey;
+    margin: 0;
+}
