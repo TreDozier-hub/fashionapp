@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar.js';
 import Favourite from './components/Favourite.js'
-
+import Footer from './components/Footer.js'
 
 function App() {
   return (
@@ -15,6 +15,11 @@ function App() {
       <main>
         <Favourite />
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
+
     </div>
   );
 }
