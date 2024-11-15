@@ -22,11 +22,12 @@ export default function CardContainer() {
     const cardsData = [
         {image: (Image1), titre: "Hoodies & Sweatshirts", soustitre: "Explore Now!"},
         {image: (Image2), titre: "Coats & Parkas", soustitre: "Explore Now!"},
-        {image: (Image3), titre: "Tees & T-shirts", soustitre: "Explore Now!"}
+        {image: (Image3), titre: "Tees & T-shirts", soustitre: "Explore Now!"},
     ]
 
     return (
         <>
+        <h3>New arrivals</h3>
         <div className="cards-container">
             {cardsData.map((carte, index) => (
                 <Card key={index} image={carte.image} titre={carte.titre} soustitre={carte.soustitre} />
