@@ -1,18 +1,37 @@
+.titre {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: 'Oswald';
+  padding-bottom: 0;
+}
+
+
+.fond {
+  background-image: url( './assets/BusinessRetailCard.svg' );
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
 .cards-container {
   display: flex;
   gap: 20px;
   justify-content: center;
-  padding: 20px;
+  padding: 20px; 
 }
 
 .card {
   /* width: 300px; */
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
-  background-color: #fff;
   text-align: left;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .card-image {

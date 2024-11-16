@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from './assets/logo_fashion.png';
 import SignButton from './SignButton.js';
 import './App.css';
+import './Footer.css';
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -15,7 +16,7 @@ function NavBar() {
         <footer class="footer">
             <div class="footer-container">
                 <div class="footer-section">
-                    <h3 class="footer-brand">FASHION</h3>
+                    <h3>FASHION</h3>
                     {/* <div className="navbarLogo">
                 <a  href="#logo">
                     <img src={Logo} alt="logo" className="navbarLogo" />

@@ -24,8 +24,8 @@ function Cards(props){
 function Favourite() {
     return (
         <>
-        <div>
-            <h3>Young's Favourite</h3>
+        <div class="titre">
+            <h3 class="fond">Young's Favourite</h3>
         </div>
 
         <div className="cards-container">            
