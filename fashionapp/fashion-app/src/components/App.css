@@ -61,9 +61,24 @@
 .navbar--link-item {
   margin-right: 10px;
   margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-decoration: none;
   color: black;
 }
+
+.navbar--link-item:hover {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #535353;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #dd9e09;
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid; */;
+}
+
 /* Bouton principal */
 button {
   display: inline-block;
