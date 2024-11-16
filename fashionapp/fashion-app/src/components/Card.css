@@ -57,4 +57,5 @@
 
 .arrow:hover {
   transform: translateX(5px);
+  color: rgb(190, 156, 60);
 }
