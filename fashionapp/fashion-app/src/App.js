@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Newarrivals from './components/Newarrivals.js';
+import Payday from './components/Payday.js';
+import Newsletter from './components/Newsletter.js';
+import NavBar from './components/NavBar.js';
+import Favourite from './components/Favourite.js'
+import Footer from './components/Footer.js'
+import DownloadApp from './components/DownloadApp.js';
+import Barremarques from './components/Barremarques.js';
+import Explore from './components/Explore.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <>
+          <NavBar />
+        </>
       </header>
+
+      <main>
+        <Explore />
+        <Barremarques />
+        <Newarrivals />
+        <Payday />
+        <Favourite />
+        <DownloadApp />
+        <Newsletter />
+
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
+
     </div>
-  );
+    )
 }
 
 export default App;

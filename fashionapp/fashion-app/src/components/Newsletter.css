@@ -1,0 +1,30 @@
+.newsletter-register {
+    background: #E5C643;
+    text-align: center;
+    padding: 4em;
+}
+
+.newsletter-register h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.newsletter-register p {
+    color: white;
+}
+
+.newsletter-register input {
+    border: none;
+    padding: 0.5em;
+}
+
+.newsletter-register button {
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    text-transform: uppercase;
+}
