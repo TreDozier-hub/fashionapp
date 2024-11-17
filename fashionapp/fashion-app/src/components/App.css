@@ -103,3 +103,93 @@ button:hover {
   border: 1px solid rgba(0, 0, 0, 0.5);
   
 }
+
+.appIos {
+  width: 100%;
+  max-width: 345px;
+}
+
+.AppGoogle {
+  width: 100%;
+  max-width: 400px;
+}
+
+.download {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  padding: 20px;
+  margin: 50px;
+}
+
+/* .fdownload-section-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+    padding-bottom: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Oswald';
+  padding-bottom: 0;
+  flex-flow: column wrap;
+  width: 30%;
+  text-align: left;
+} */
+
+.fdownload-section-2 {
+  width: 70%;
+}
+
+.Phone {
+  max-width: 600px;
+}
+
+.fdownload-section-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+    padding-bottom: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Oswald';
+  padding-bottom: 0;
+  flex-flow: column wrap;
+text-align: left; 
+padding: 20px;
+background-color: #fff; /* Fond blanc */
+}
+
+/* Titre */
+.fdownload-section-1 h2 {
+font-size: 1.8rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+/* Texte descriptif */
+.fdownload-section-1 p {
+font-size: 1rem;
+color: #444; 
+margin-bottom: 30px;
+line-height: 1.6;
+}
+
+/* Conteneur des logos */
+.iconApp {
+display: flex;
+justify-content: center; 
+align-items: center; 
+gap: 20px; 
+}
+
+/* Style des images */
+.iconApp img {
+max-width: 150px;
+height: auto;
+cursor: pointer;
+transition: transform 0.2s ease-in-out;
+}
