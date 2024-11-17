@@ -4,26 +4,28 @@
     justify-content: center;
 }
 
-.card {
+.carda {
     margin:2.5em;
+    text-align: left;
 }
 
-.card img {
-    max-width: 25vh;
+.carda img {
+    max-width: 40vh;
     border-radius: 1em;
-    height: 40vh;
+    height: 55vh;
     object-fit: cover;
 }
 
-.card h3 {
+.carda h3 {
     color: black;
     font-weight: 500;
     font-size: 1em;
     letter-spacing: -0.05em;
     margin: 0;
+    padding: 0;
 }
 
-.card p {
+.carda p {
     font-size: 0.7em;
     font-weight: 400;
     color: grey;

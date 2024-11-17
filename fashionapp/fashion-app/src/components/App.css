@@ -1,0 +1,179 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: rgb(26, 26, 26);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbarLogo {
+  width: 100%;
+  max-width: 9vw;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.navbar--link {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar--link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.navbar--link-item {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar--link-item:hover {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #535353;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #dd9e09;
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid; */;
+}
+
+/* Bouton principal */
+button {
+  background-color: #000;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 7px 11px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.appIos {
+  width: 100%;
+  max-width: 345px;
+}
+
+.AppGoogle {
+  width: 100%;
+  max-width: 400px;
+}
+
+.download {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* .fdownload-section-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+    padding-bottom: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Oswald';
+  padding-bottom: 0;
+  flex-flow: column wrap;
+  width: 30%;
+  text-align: left;
+} */
+
+
+
+.fdownload-section-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 20px;
+  font-family: 'Oswald';
+  padding-bottom: 0;
+  flex-flow: column wrap;
+  text-align: left; 
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Titre */
+.fdownload-section-1 h2 {
+font-size: 1.8rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+/* Texte descriptif */
+.fdownload-section-1 p {
+font-size: 1rem;
+color: #444; 
+margin-bottom: 30px;
+line-height: 1.6;
+}
+
+/* Conteneur des logos */
+.iconApp {
+display: flex;
+justify-content: center; 
+align-items: center; 
+gap: 20px; 
+}
+
+/* Style des images */
+.iconApp img {
+max-width: 150px;
+height: auto;
+cursor: pointer;
+transition: transform 0.2s ease-in-out;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 11%;
+  margin-top: 5%;
+  font-weight: 900;
+  font-size: 1.5em;
+}
