@@ -1,0 +1,10 @@
+.barremarques {
+    background: #EBD96B;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.barremarques img {
+    mix-blend-mode: darken;
+}

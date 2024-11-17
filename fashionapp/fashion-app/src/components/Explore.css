@@ -1,0 +1,30 @@
+
+.explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #F4F6F5;
+    width: 80%;
+    border-radius: 5vh;
+    text-align: left;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.explore > div {
+    align-content: center;
+}
+
+.explore h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1em;
+
+}
+
+.explore img {
+    width: 60%;
+}
+

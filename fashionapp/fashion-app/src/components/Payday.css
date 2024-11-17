@@ -1,0 +1,54 @@
+.payday-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.payday-container > div {
+    flex-direction: column;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    padding: 3em;
+    width: 50%;
+    align-content: center;
+    text-align: left;
+}
+
+.payday-container p {
+    font-size: 1.1em;
+}
+
+.pbold {
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.payday-container img {
+    object-fit: cover;
+    width: 50%;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 1.2em;
+    font-weight: 900;
+    margin: 0;
+}
+
+.payday-button {
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    border: none;
+}
+
+.rect-blanc {
+    background-color: white;
+    transform: rotate(-2deg);
+    height: 3.5em;
+    width: 15em;
+
+}
